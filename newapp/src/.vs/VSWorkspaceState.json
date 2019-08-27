@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\app",
+    "\\app\\auth",
+    "\\app\\places",
+    "\\app\\places\\discover",
+    "\\app\\places\\discover\\place-detail"
   ],
+  "SelectedNode": "\\app\\places\\discover\\place-detail\\place-detail.page.ts",
   "PreviewInSolutionExplorer": false
 }
