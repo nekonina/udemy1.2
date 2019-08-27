@@ -29,11 +29,11 @@ const routes: Routes = [
                         loadChildren: './offers/offers.module#OffersPageModule'
                     },
                     {
-                        path: 'new',
+                        path: 'edit/:placeId',
                         loadChildren: './offers/edit-offer/edit-offer.module#EditOfferPageModule'
                     },
                     {
-                        path: 'edit/:placeId',
+                        path: 'new',
                         loadChildren: './offers/new-offer/new-offer.module#NewOfferPageModule'
                     },
                     {
