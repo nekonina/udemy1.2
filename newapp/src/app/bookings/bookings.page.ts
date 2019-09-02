@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Inject, Injectable } from "@angular/core";
 import { BookingService } from "./booking.service";
 import { Booking } from "./booking.model";
 import { IonItemSliding } from "@ionic/angular";
